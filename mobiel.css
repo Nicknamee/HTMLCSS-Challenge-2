@@ -27,6 +27,8 @@ body{
 .header h2 {
     text-align: center;
     margin-top: 5px;
+    margin-left: 3px;
+    margin-right: 3px;
 
 }
 
@@ -65,6 +67,7 @@ label{
     display: none;
     width: 26px;
     float: right;
+    color: white;
 }
 
 #toggle {
@@ -173,4 +176,51 @@ h3 {
     #toggle:checked + .menu {
         display: block;
     }
+}
+
+/* Pagina 2 */
+
+.picture1 {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    padding-bottom: 3px;
+
+}
+
+.artikel {
+    color: dimgray;
+    background-color: mintcream;
+    text-align: left;
+    padding-left: 10px;
+    font-weight: bold;
+    margin-top: 220px;
+    padding-bottom: 3px;
+    padding-right: 10px;
+}
+
+.artikel h3{
+    font-weight: bold;
+    margin-top: 1px;
+}
+
+.artikeltekst p{
+    text-align: left;
+    color: dimgray;
+}
+
+.artikel p{
+    color: dimgray;
+
+}
+#onder p{
+    color: crimson;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.tekstonder{
+    text-align: center;
+    font-size: 10px;
+
 }
